@@ -16,7 +16,7 @@ public class ToolBarDemoActivity extends AppCompatActivity {
         setContentView(R.layout.activity_tool_bar_demo);
 
         initViews();
-        Toast.makeText(this, "AAA", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "修改了toast", Toast.LENGTH_SHORT).show();
     }
 
     private void initViews() {
