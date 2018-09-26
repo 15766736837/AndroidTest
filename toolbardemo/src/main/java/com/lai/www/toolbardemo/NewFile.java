@@ -5,6 +5,7 @@ package com.lai.www.toolbardemo;
  */
 
 public class NewFile {
+    //加了注释
 
     //修改
 }
