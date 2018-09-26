@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
+import android.widget.Toast;
 
 public class ToolBarDemoActivity extends AppCompatActivity {
 
@@ -15,6 +16,7 @@ public class ToolBarDemoActivity extends AppCompatActivity {
         setContentView(R.layout.activity_tool_bar_demo);
 
         initViews();
+        Toast.makeText(this, "AAA", Toast.LENGTH_SHORT).show();
     }
 
     private void initViews() {
